@@ -117,3 +117,62 @@
     rgba(232, 65, 150, 1) 0%
   );
 }
+
+/* ____________ media query __________ */
+
+@media (max-width: 1024px) {
+  #soon > :nth-child(1) {
+    font-size: 9vw;
+  }
+
+  #soon-timer > div {
+    width: 19vw;
+    height: 18vh;
+  }
+
+  #timer > :nth-child(1) {
+    font-size: 6vw;
+  }
+  #timer > :nth-child(2) {
+    font-size: 1.5vw;
+  }
+
+  #foorm-card {
+    width: 70vw;
+    height: 9vh;
+  }
+
+  #foorm-card > :nth-child(1) {
+    padding-left: 4%;
+    font-size: 2vw;
+  }
+
+  #foorm-card > :nth-child(2) {
+    width: 20vw;
+    height: 60%;
+    font-size: 1.4vw;
+  }
+}
+@media (max-width: 425px) {
+  #soon-timer > div {
+    width: 19vw;
+    height: 13vh;
+  }
+
+ 
+  #foorm-card {
+    width: 70vw;
+    height: 5.5vh;
+  }
+
+  #foorm-card > :nth-child(1) {
+    padding-left: 4%;
+    font-size: 2vw;
+  }
+
+  #foorm-card > :nth-child(2) {
+    width: 20vw;
+    height: 60%;
+    font-size: 1.4vw;
+  }
+}
